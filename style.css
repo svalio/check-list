@@ -1,0 +1,44 @@
+#inp {
+  margin: 0px 10% 0px 10%;
+  width: 80%;
+  height: 30px;
+  padding: 0px 0px 0px 10px;
+}
+
+img {
+  width: 28px;
+  height: 28px;
+  padding-right: 10px;
+}
+
+img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.ch {
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+}
+
+label {
+  display: flex;
+  flex-grow: 5;
+}
+
+.s {
+  text-decoration: line-through;
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border: 1px solid;
+  width: 82%;
+  margin: 0px 5% 0px 10%;
+  border-collapse: collapse;
+}
